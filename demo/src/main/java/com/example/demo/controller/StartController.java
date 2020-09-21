@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class StartController {
 
-    @RequestMapping("/hello")
-    public String hello() {
-        return "hello spring boot";
-    }
+	@RequestMapping("/hello")
+	public String hello() {
+		return "hello spring boot";
+	}
 
 }
